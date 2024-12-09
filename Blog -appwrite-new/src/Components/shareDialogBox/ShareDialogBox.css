@@ -1,0 +1,61 @@
+
+.share-icon-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+}
+
+
+.dialog-box {
+    position: relative;
+    width: 25em;
+    margin-right: 1em;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+
+.icon svg {
+    color: white;
+    transition: transform 0.2s ease;
+}
+
+.icon svg:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+@media (max-width: 768px) {
+    .dialog-box {
+        width: 20em;
+    }
+
+    .icon-container {
+        gap: 10px;
+    }
+
+    .icon svg {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .dialog-box {
+        width: 15em;
+    }
+
+    .icon svg {
+        width: 25px;
+        height: 25px;
+    }
+
+
+}

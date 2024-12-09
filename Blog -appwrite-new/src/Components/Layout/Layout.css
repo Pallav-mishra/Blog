@@ -1,0 +1,25 @@
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+
+  .content {
+    flex: 1; 
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 768px) {
+    .content {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .content {
+      padding: 10px;
+    }
+  }
+  
